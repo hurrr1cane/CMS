@@ -1,45 +1,14 @@
-/* Import Google font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+
 main {
   min-height: 100vh;
   width: 100%;
-  background: rgb(250, 210, 210);
+  flex: 0;
+  min-width: 0;
+  padding: 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header {
-  top: 0;
-  position: fixed;
-  width: 100vw;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.2);
-  align-items: center;
-  height: 3.75rem;
-  color: white;
-}
-
-
-.header-text {
-  flex: 1;
-  margin-left: 1.25rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-.header-text a {
-  text-decoration: none;
-  color: white;
 }
 
 .header-back a {
@@ -77,8 +46,7 @@ main {
   margin-bottom: 2rem;
   max-width: 430px;
   width: 100%;
-  background: #fff;
-  border-radius: 7px;
+  border-radius: 1rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .container .registration {
@@ -104,16 +72,17 @@ main {
 }
 .form input {
   height: 60px;
-  width: 100%;
+  width: calc(100% - 2rem);
   padding: 0 15px;
   font-size: 17px;
   /*margin-bottom: 1.3rem;*/
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: 1rem;
   outline: none;
 }
 .input-container {
   margin-bottom: 1rem;
+  width: 100%;
 }
 .form input:focus {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
@@ -128,7 +97,8 @@ main {
 }
 .form input.button {
   color: #fff;
-  background: rgb(250, 60, 60);
+  width: 100%;
+  background: rgb(0, 0, 200);
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -137,14 +107,14 @@ main {
   transition: 0.4s;
 }
 .form input.button:hover {
-  background: rgb(120, 34, 34);
+  background: rgba(0, 0, 200, 0.8);
 }
 .signup {
   font-size: 17px;
   text-align: center;
 }
 .signup label {
-  color: rgb(250, 60, 60);
+  color: rgb(0, 0, 200);
   cursor: pointer;
 }
 .signup label:hover {
@@ -158,7 +128,7 @@ main {
   font-size: 17px;
   margin-bottom: 1.3rem;
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: 1rem;
   outline: none;
   appearance: none; /* Remove default arrow */
   background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Custom arrow */

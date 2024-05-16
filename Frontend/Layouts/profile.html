@@ -27,9 +27,9 @@
   <body>
     <header>
       <!-- A text, a notification and photo with name -->
-      <div class="header">
+      <div class="header blurred">
         <div class="header-burger">
-          <img src="../Pictures/icons8-menu-24.png" alt="Burger" />
+          <img class="icon" src="../Pictures/icons8-menu-24.png" alt="Burger" />
         </div>
         <div class="header-text">
           <a href="index.html">
@@ -58,7 +58,7 @@
     </header>
     <div class="main-container">
       <div class="containerer">
-        <nav>
+        <nav class="blurred dark">
           <!-- Navigation options -->
           <ul class="navigation-list">
             <li><a href="#">Dashboard</a></li>
@@ -68,7 +68,7 @@
         </nav>
 
         <main class="container">
-          <form class="profile-container" id="userForm" enctype="multipart/form-data">
+          <form class="profile-container blurred" id="userForm" enctype="multipart/form-data">
             <h1>Profile</h1>
             <div class="profile-photo">
               <img src="../Pictures/default-image.png" alt="Your picture" />
@@ -103,7 +103,7 @@
         </main>
       </div>
 
-      <footer>
+      <footer class="blurred dark">
         <div class="footer-container">
           <div class="footer-info">
             <p>&copy; 2024 LPNU CMS. All rights reserved.</p>
@@ -122,7 +122,7 @@
     </div>
 
 
-    <dialog class="validation-error-dialog">
+    <dialog class="validation-error-dialog blurred">
       <h2 class="validation-error-dialog-heading">Server error</h2>
       <p class="validation-error-dialog-text">
         There was an error while processing your request. Please try again

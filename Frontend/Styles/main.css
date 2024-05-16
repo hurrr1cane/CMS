@@ -15,6 +15,7 @@ a:hover {
 
 .header {
   position: fixed;
+  z-index: 1;
   width: 100vw;
   margin: 0;
   display: flex;
@@ -224,7 +225,7 @@ a:hover {
 }
 
 .single-account-control:hover {
-  background-color: rgb(250, 210, 210);
+  background-color: rgba(0, 0, 200, 0.2);
 }
 
 .main-container {

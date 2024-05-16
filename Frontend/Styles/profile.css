@@ -1,7 +1,6 @@
 .profile-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(250, 210, 210);
   padding: 2rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -26,7 +25,7 @@
 
 .profile-info-edit button,
 .profile-info-edit input[type="submit"] {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
   border: none;
   height: 2.25rem;
@@ -68,7 +67,7 @@ input[type="file"] {
 
 /*Also for the button inside the input type=file*/
 input[type="file"]::file-selector-button {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
   border: none;
   height: 2.25rem;
@@ -82,7 +81,6 @@ input[type="file"]::file-selector-button {
 .server-error-dialog,
 .validation-error-dialog {
   position: fixed;
-  background-color: rgb(250, 210, 210);
   border-radius: 1.25rem;
   border: none;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
@@ -98,7 +96,7 @@ input[type="file"]::file-selector-button {
 
 .server-error-dialog-button-container button,
 .validation-error-dialog-button-container button {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
   margin-left: 0.625rem;
   padding: 0.625rem 1.25rem;
@@ -110,5 +108,5 @@ input[type="file"]::file-selector-button {
 
 .server-error-dialog-button-container button:hover,
 .validation-error-dialog-button-container button:hover {
-  background-color: rgb(120, 34, 34);
+  background-color: rgba(0, 0, 200, 0.8);
 }

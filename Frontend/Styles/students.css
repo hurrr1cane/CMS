@@ -17,7 +17,7 @@
   text-decoration: none;
   line-height: 2.3125rem;
   font-size: 1.875rem;
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
   border-radius: 1.25rem;
   cursor: pointer;
@@ -53,11 +53,11 @@
   background-color: #fff;
   cursor: pointer;
 }
-
+/*
 .students-table input[type="checkbox"]:checked {
   background-color: rgb(250, 60, 60);
 }
-
+*/
 .status-container {
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@
 }
 
 .status-active {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   width: 0.625rem;
   height: 0.625rem;
   border-radius: 50%;
@@ -96,7 +96,7 @@
   width: 1.875rem;
   height: 1.875rem;
   margin: 0.0625rem;
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   border-radius: 1.25rem 0 0 1.25rem;
   display: flex;
   justify-content: center;
@@ -109,7 +109,7 @@
   width: 1.875rem;
   height: 1.875rem;
   margin: 0.0625rem;
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   border-radius: 0 1.25rem 1.25rem 0;
   display: flex;
   justify-content: center;
@@ -137,7 +137,7 @@
 }
 
 .pagination a.pagination-active {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
 }
 
@@ -148,7 +148,8 @@
 .student-dialog,
 .server-error-dialog {
   position: fixed;
-  background-color: rgb(250, 210, 210);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2rem);
   border-radius: 1.25rem;
   border: none;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
@@ -208,7 +209,7 @@
 .student-dialog-save,
 .delete-student-dialog-button-container button,
 .server-error-dialog-button-container button {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   color: white;
   margin-left: 0.625rem;
   padding: 0.625rem 1.25rem;
@@ -224,7 +225,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.3125rem;
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(0, 0, 200);
   border: none;
   border-radius: 6.25rem;
   cursor: pointer;
@@ -242,7 +243,7 @@
 .delete-student-dialog-button-container button:hover,
 .delete-student-dialog-close-button:hover,
 .server-error-dialog-button-container button:hover {
-  background-color: rgb(120, 34, 34);
+  background-color: rgba(0, 0, 200, 0.8);
 }
 
 .close-image {
@@ -252,7 +253,6 @@
 
 .delete-student-dialog {
   position: fixed;
-  background-color: rgb(250, 210, 210);
   border-radius: 1.25rem;
   border: none;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
