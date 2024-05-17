@@ -61,9 +61,15 @@ function deleteDialogFunction(value) {
   //Remove all event listeners
   let newButton = deleteButton.cloneNode(true);
   deleteButton.parentNode.replaceChild(newButton, deleteButton);
-  deleteButton.addEventListener("click", function () {
+
+  console.log("I AM HERE");
+
+  newButton.addEventListener("click", function () {
     //studentRow.remove();
     deleteStudentFromBackend(studentRow);
+
+    console.log("DELETE CLICKED");
+
     deleteDialog.close();
   });
 }

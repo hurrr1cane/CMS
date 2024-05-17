@@ -15,7 +15,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  background-color: rgb(250, 210, 210);
+  
   width: 20rem;
   min-width: 12rem;
   height: 80vh;
@@ -33,14 +33,14 @@ h3 {
   align-items: center;
   margin: 0.5rem;
   height: 3rem;
-  background-color: rgb(246, 185, 185);
+  background-color: rgb(174, 174, 218);
   border-radius: 4px;
   margin-top: 0.25rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 .chat-item:hover {
-  background-color: rgb(250, 60, 60);
+  background-color:  rgb(0, 0, 200);
 }
 .chat-item p {
   overflow: hidden;
@@ -60,7 +60,7 @@ h3 {
 .conversation {
   border-radius: 8px;
   flex: 1;
-  background-color: rgb(250, 210, 210);
+
   display: flex;
   flex-direction: column;
   height: calc(80vh + 1rem);
@@ -86,7 +86,7 @@ h3 {
 }
 
 .search button {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(123, 123, 171);
   color: white;
   border: none;
   height: 2.25rem;
@@ -103,7 +103,7 @@ h3 {
   overflow-y: auto;
   padding: 0.5rem;
   margin: 0.5rem;
-  background-color: white;
+  background-color: rgb(231, 233, 255);
   border-radius: 0.5rem;
 }
 
@@ -124,7 +124,7 @@ h3 {
 }
 
 .message-input button {
-  background-color: rgb(250, 60, 60);
+  background-color:  rgb(123, 123, 171);
   color: white;
   border: none;
   height: 2.25rem;
@@ -155,7 +155,7 @@ h3 {
   text-decoration: none;
   line-height: 2.3125rem;
   font-size: 1.875rem;
-  background-color: rgb(250, 60, 60);
+  background-color:  rgb(123, 123, 171);
   color: white;
   border-radius: 1.25rem;
   border: none;
@@ -174,7 +174,7 @@ h3 {
 }
 
 .message-my .message {
-  background-color: rgb(250, 60, 60);
+  background-color: rgb(145, 147, 211);
   color: white;
   border-radius: 1rem 0 1rem 1rem;
   max-width: 80%;
@@ -203,11 +203,11 @@ h3 {
 }
 
 .message-other .message {
-  background-color: rgb(246, 185, 185);
+  background-color: rgb(185, 187, 246);
   border-radius: 0 1rem 1rem 1rem;
   max-width: calc(80% - 2.5rem);
   box-sizing: border-box;
-  
+    
 }
 
 .message-other .message .message-name {
@@ -251,7 +251,7 @@ h3 {
 }
 
 .error-message {
-  color: red;
+  color: rgb(0, 0, 200);
   font-size: 0.875rem;
   margin: 0.5rem;
 }
@@ -261,7 +261,7 @@ h3 {
 }
 
 .chat-item.active {
-  background-color: rgb(250, 60, 60);
+  background-color:  rgb(123, 123, 171);
 }
 
 .add-participant {
@@ -280,7 +280,7 @@ h3 {
 }
 
 .input-container button {
-  background-color: rgb(250, 60, 60);
+  background-color:  rgb(123, 123, 171);
   color: white;
   border: none;
   height: 2.25rem;

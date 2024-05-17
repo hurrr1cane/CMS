@@ -27,9 +27,9 @@
   <body>
     <header>
       <!-- A text, a notification and photo with name -->
-      <div class="header">
+      <div class="header blurred">
         <div class="header-burger">
-          <img src="../Pictures/icons8-menu-24.png" alt="Burger" />
+          <img class="icon" src="../Pictures/icons8-menu-24.png" alt="Burger" />
         </div>
         <div class="header-text">
           <a href="index.html">
@@ -58,9 +58,9 @@
     </header>
     <div class="main-container">
       <div class="containerer">
-        <nav>
+        <nav class="blurred dark">
           <!-- Navigation options -->
-          <ul class="navigation-list">
+          <ul class="navigation-list ">
             <li><a href="#">Dashboard</a></li>
             <li><a href="index.html">Students</a></li>
             <li><a href="#">Tasks</a></li>
@@ -68,11 +68,11 @@
         </nav>
 
         <main class="container">
-          <div class="chats-container">
+          <div class="chats-container blurred">
             <h3>Chats</h3>
             <div class="search">
               <input type="text" placeholder="Enter email" id="email-to-add" />
-              <button id="add-room">Add</button>
+              <button id="add-room" >Add</button>
             </div>
             <p class="error-message" id="incorrect-email">
               Please, enter a correct email
@@ -80,7 +80,7 @@
 
             <div class="chats-list"></div>
           </div>
-          <div class="conversation hide">
+          <div class="conversation blurred hide">
             <h3>Conversation</h3>
             <div class="group-chat">
               <div class="participants"></div>
@@ -108,7 +108,7 @@
         </main>
       </div>
 
-      <footer>
+      <footer class="blurred dark">
         <div class="footer-container">
           <div class="footer-info">
             <p>&copy; 2024 LPNU CMS. All rights reserved.</p>
